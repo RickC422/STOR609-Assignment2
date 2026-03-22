@@ -1,6 +1,6 @@
 import pytest
 
-from src.value_iteration import FiniteMDP, Transition, action_value, greedy_policy_from_value
+from value_iteration import FiniteMDP, Transition, action_value, greedy_policy_from_value
 
 """
 Basic tests for policy-related functions.

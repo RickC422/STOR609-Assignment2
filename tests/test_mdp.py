@@ -1,6 +1,6 @@
 import pytest
 
-from src.value_iteration import FiniteMDP, Transition
+from value_iteration import FiniteMDP, Transition
 
 
 """

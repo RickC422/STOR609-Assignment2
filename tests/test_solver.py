@@ -1,6 +1,6 @@
 import pytest
 
-from src.value_iteration import (
+from value_iteration import (
     FiniteMDP,
     Transition,
     bellman_optimality_update,

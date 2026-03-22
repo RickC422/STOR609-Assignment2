@@ -10,7 +10,7 @@ My version makes terminal states explicit, while the textbook pseudocode leaves 
 
 Another practical change is how I store values during iteration. The textbook writes the sequence \(V_0, V_1, V_2, \dots\). In code, I only keep `V_old` and `V_new`. This is enough for the algorithm and makes the implementation simpler.
 
-The textbook says to repeat the update “until termination”. In my design, I make this precise by using  
+The textbook says to repeat the update "until termination". In my design, I make this precise by using  
 `delta = max_s |V_new(s) - V_old(s)|`  
 and stopping when `delta < epsilon`. I added this because a real program needs a clear stopping rule.
 

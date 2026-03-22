@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "A simple value iteration implementation for finite discounted MDPs."
 readme = "README.MD"
 requires-python = ">=3.10"
+license = "MIT"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
